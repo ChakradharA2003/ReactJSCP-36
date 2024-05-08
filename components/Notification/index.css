@@ -1,0 +1,47 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+.notification-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #e5e5e5;
+  padding: 15px;
+  width: 30%;
+  margin: 10px;
+}
+@media (max-width: 767px) and (orientation: portrait) {
+  .notification-container {
+    width: 90%;
+  }
+  .close-icon {
+    font-size: 20px;
+  }
+}
+.Success {
+  color: #2dca73;
+  font-size: 20px;
+}
+.notification-description {
+  color: #475569;
+  font-size: 13px;
+  font-weight: 500;
+}
+.close-icon {
+  margin-left: 30px;
+  font-size: 24px;
+}
+.Error {
+  color: #ff0b37;
+  font-size: 20px;
+}
+.Warning {
+  color: #ffb800;
+  font-size: 20px;
+}
+.Info {
+  color: #0f81e0;
+  font-size: 20px;
+}
